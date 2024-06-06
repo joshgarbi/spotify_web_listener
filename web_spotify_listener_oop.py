@@ -15,12 +15,12 @@ from spotipy.cache_handler import CacheHandler
 class my_playlist_handler:
         
         def __init__(self):
-            self.client_id= 'cde9fef58daa4b1c9364d70ac96f1d55'  # Get your client id from Spotify developer dashboard
-            self.client_secret = '9fcd500e0c0b477095bbf94ad00fb37e'  # Get your client secret from Spotify developer dashboard
+            self.client_id= ''  # Get your client id from Spotify developer dashboard
+            self.client_secret = ''  # Get your client secret from Spotify developer dashboard
             self.redirect_uri = 'http://google.com/'
             self.scope = 'playlist-modify-public playlist-modify-private ugc-image-upload'
-            self.playlist_id = '4tkKGDu1LzNf8ULBtIMKfH'
-            self.username = '09y27tdmjn0pofjcmru8qss8q'           
+            self.playlist_id = ''
+            self.username = ''           
     
 
             self.sp_oauth = SpotifyOAuth(client_id=self.client_id, client_secret=self.client_secret, redirect_uri=self.redirect_uri, scope=self.scope, show_dialog=True)
